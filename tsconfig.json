@@ -1,0 +1,34 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "incremental": false,
+    "target": "es6",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "lib": [
+      "es2021",
+      "DOM"
+    ],
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "useUnknownInCatchVariables": true // TS >=4.4
+  }
+}

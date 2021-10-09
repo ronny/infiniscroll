@@ -1,0 +1,24 @@
+{
+  "name": "infiniscroll",
+  "version": "1.0.0",
+  "description": "Infinite scrolling",
+  "main": "infiniscroll.js",
+  "author": "https://github.com/ronny",
+  "license": "MIT",
+  "homepage": "https://github.com/ronny/infiniscroll",
+  "scripts": {
+    "prebuild": "npm run lint",
+    "build": "tsc",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
+  }
+}
