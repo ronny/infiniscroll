@@ -2,7 +2,7 @@
 
 Infinite scrolling pagination. Loads next page as you scroll.
 
-Based on https://github.com/Elkfox/Ajaxinate with this modifications:
+Based on https://github.com/Elkfox/Ajaxinate with these modifications:
 
 - TypeScript code base
 - uses standard `fetch` API instead of `XMLHttpRequest` ("ajax")
